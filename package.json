@@ -1,0 +1,33 @@
+{
+  "name": "materiales-festival-de-musica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:dist/css",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joleacudu/SASSyNPM.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp."
+  ],
+  "author": "Leonardo Cuellar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joleacudu/SASSyNPM/issues"
+  },
+  "homepage": "https://github.com/joleacudu/SASSyNPM#readme",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "gulp-sass": "^5.1.0"
+  }
+}
